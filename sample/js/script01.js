@@ -15,7 +15,9 @@ $(function(){
     }
 
     function samTwo(t1,t2){
+        /*samTow(arg1,arg2){*/
         $("#content").append(t1 + t2);
+        /*.text(arg1 + arg2);*/
     }
 
     $("#button01").on("click",function(){
